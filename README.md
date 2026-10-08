@@ -139,3 +139,24 @@ source/module/GRAM.CPP  EDIT THIS ADD YOUR KEY
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+=================================================================================
+Lack of memory on heltec3  crash often
+a better hardware and more memory should be better less crash
+===============================================================================
+
+
+
+
