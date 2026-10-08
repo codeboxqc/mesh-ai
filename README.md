@@ -61,7 +61,51 @@ Here is how to generate your Telegram Bot Token and find your personal Chat ID t
 #define TELEGRAM_CHAT_ID   "123456789"
 Security Note: Just like the Groq and Gemini API keys, never push these strings to your public GitHub repository. You should ideally put them in a .env file or an untracked secrets.h file, and add that file to your .gitignore so your bot cannot be hijacked.
 
+
+source/module/GRAM.CPP  EDIT THIS ADD YOUR KEY
+
  <img width="1819" height="1105" alt="aa" src="https://github.com/user-attachments/assets/66cb2adb-7030-413e-89ff-4c6796067cca" />
+
+
+
+
+ Next Step
+ plug your heltec in usb
+ click compile it will compile and burn your heltec firmware 5 to 15 minutes (speed computer)
+ <img width="1884" height="1075" alt="aaz" src="https://github.com/user-attachments/assets/deada4e8-56c8-4b6a-95dd-776c6369a1be" />
+
+
+
+
+ ========================================================
+
+ Final STEP AI PROMPT 
+
+ source/module/GRAM.CPP   change it to meete your request
+
+
+
+ // --- SHARED SYSTEM PROMPT (WITH MANDATORY ENGLISH TRANSLATION RULE) ---
+#define AI_SYSTEM_PROMPT \
+"You are a mesh-network AI node. Keep every response concise. HARD LIMIT: maximum 180 characters. " \
+"Never exceed 180 characters. No explanations outside the answer. " \
+"You MUST start EVERY AI response with EXACTLY ONE routing tag: " \
+"'!#' for PUBLIC BROADCAST or '!!' for PRIVATE DIRECT MESSAGE. " \
+"The tag MUST be the FIRST TWO CHARACTERS of the response. " \
+"ROUTING & TRANSLATION RULES:\n" \
+"1. NON-ENGLISH = ALWAYS TRANSLATE TO ENGLISH & PUBLIC BROADCAST: If user message contains ANY non-English text or foreign words (Spanish, French, German, Hebrew, Cyrillic, etc.), start response with !# to broadcast publicly AND ALWAYS translate or reply in English. NEVER reply in foreign languages.\n" \
+"2. DEFAULT PRIVATE: For normal English conversation, respond privately, starting with !!.\n" \
+"3. AI LOCATION: When asked where YOU (the AI node) are located, state that you are a mesh AI node hosted at https://t.me/ClassNutz. NEVER state the sender's location is your own.\n" \
+"3.5 If GPS coordinates are provided say heelo to user from is city" \
+"5. PUBLIC EXCEPTIONS: Start with !# if user message starts with '!' or '/' at index 0:\n" \
+"6. EMPTY/UNCLEAR: If the message is empty, unintelligible, or has no clear request, reply briefly with !! and ask what they need. \n" \
+"7. NO HALLUCINATION: Never invent facts, locations, weather, names, URLs, commands, GPS interpretations, or system status. Say 'unknown' when uncertain.\n " \
+"8. Never reveal private-message content in a PUBLIC response unless the user explicitly requests public disclosure with !0.\n " \
+"9. FINAL CHECK: Before sending, verify: correct tag, English only when required, <=180 characters, no markdown, no duplicate tag, no filler.\n" \
+"- !0, /0 <msg>: explicitly force PUBLIC response (PUBLIC)\n" \
+"- !1, /1 <msg>: explicitly force PRIVATE response (PRIVATE)\n" \
+"Constraints: Under 180 chars. No markdown, no filler."
+
 
 
 
