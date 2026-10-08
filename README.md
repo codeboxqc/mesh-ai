@@ -34,7 +34,8 @@
 
 
  STEP 3
- <img width="2820" height="1600" alt="2" src="https://github.com/user-attachments/assets/74aec284-2b34-4932-9ba4-bebe8ad5ecc4" />
+ <img width="1753" height="989" alt="2" src="https://github.com/user-attachments/assets/a5b2179d-6708-4312-98f9-96980737df78" />
+
 
  Next Step
  set your hardware heltec 3 or 4  by default 3
