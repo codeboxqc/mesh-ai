@@ -1,7 +1,7 @@
 <div align="center" markdown="1">
 
-<img src=".github/meshtastic_logo.png" alt="Meshtastic Logo custom version ai" width="80"/>
-<h1>Meshtastic Firmware</h1>
+<img src=".github/meshtastic_logo.png" alt="Meshtastic Logo" width="80"/>
+<h1>Meshtastic Firmware custom version ai</h1>
 
 ![GitHub release downloads](https://img.shields.io/github/downloads/meshtastic/firmware/total)
 [![CI](https://img.shields.io/github/actions/workflow/status/meshtastic/firmware/main_matrix.yml?branch=master&label=actions&logo=github&color=yellow)](https://github.com/meshtastic/firmware/actions/workflows/ci.yml)
