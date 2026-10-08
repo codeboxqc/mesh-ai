@@ -20,4 +20,28 @@
 	<a href="https://meshtastic.org/docs/">Documentation</a>
 </div>
 
- 
+
+
+
+ STEP 1
+
+ Download, unzip
+
+
+ STEP 2
+ using VSCODE
+ <img width="1881" height="999" alt="1" src="https://github.com/user-attachments/assets/a7aef8e4-99f3-42a7-8fa2-e10fa07eedff" />
+
+
+ STEP 3
+ <img width="2820" height="1600" alt="2" src="https://github.com/user-attachments/assets/74aec284-2b34-4932-9ba4-bebe8ad5ecc4" />
+
+ Next Step
+ set your hardware heltec 3 or 4  by default 3
+ <img width="1751" height="1131" alt="3" src="https://github.com/user-attachments/assets/2af4efab-28e8-44ee-8295-06bd5cd45ca1" />
+
+
+
+ Next Step
+
+
