@@ -22,6 +22,7 @@
 
 
 
+<img width="953" height="1109" alt="asasas" src="https://github.com/user-attachments/assets/471befcf-8908-4bde-b551-26b2f943fb2b" />
 
 telegram preview
 https://t.me/ClassNutz
