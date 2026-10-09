@@ -62,6 +62,16 @@ https://console.groq.com/ make free key   GROQ_API_KEY        "api key code here
 https://aistudio.google.com/  make free key GEMINI_API_KEY     "api key code here"
 
 
+
+geminie was remove last version issue gemini work for 1 hour
+use now 2 groq key
+
+#define GROQ_API_KEY       "" use gok key 1 instead
+#define GEMINI_API_KEY     "" use gok key 2 instead
+
+best is to use 2 email to have 2 groq key
+
+
 #define TELEGRAM_BOT_TOKEN ""
 #define TELEGRAM_CHAT_ID   ""
 Here is how to generate your Telegram Bot Token and find your personal Chat ID to fill in those variables.1.Create the bot with BotFather :Open the Telegram app and search for @BotFather (the official bot with a verified checkmark). Click "Start" or send the message /start.2.Generate the TELEGRAM_BOT_TOKEN :Send the message /newbot to BotFather.Choose a display name for your bot (e.g., Mesh AI).Choose a unique username that ends in "bot" (e.g., mesh_ai_codeboxqc_bot).BotFather will reply with a long string of characters called the HTTP API Token. Copy this exactly—this is your TELEGRAM_BOT_TOKEN.3.Start your new bot :Required before it can send you messages.Search for your bot's new username in Telegram, open the chat, and click Start (or send /start). The bot cannot message you until you start a conversation with it first.4.Find your TELEGRAM_CHAT_ID :To get the 9 or 10-digit number that represents your personal Telegram account:Search for @userinfobot in Telegram.Click Start (or send /start).The bot will instantly reply with your account details. Look for the Id: 123456789 line.Copy that number—this is your TELEGRAM_CHAT_ID.Once you have both, place them inside the quotes in your C++ code:C++#define TELEGRAM_BOT_TOKEN "1234567890:ABCdefGhIJKlmNoPQRsTUVwxyZ"
